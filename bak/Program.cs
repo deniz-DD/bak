@@ -13,6 +13,8 @@ namespace bak
 
             Kontoinhaber konto = new Kontoinhaber("Max Mustermann", 1000);
             Console.WriteLine("Kontoinhaber: " + konto.Name);   
+            konto.Name = "Erika Mustermann";
+            konto.Ausagabe();   
             Console.ReadKey();  
 
         }

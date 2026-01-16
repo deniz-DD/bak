@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -44,6 +45,11 @@ namespace bak
               this.Kontostand = kontostand;
 
         }   
+
+        public  void Ausagabe() 
+        {
+            Console.WriteLine("Kontostand: {0}",this._kontostand);
+        }
 
     }
 }
