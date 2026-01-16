@@ -10,6 +10,11 @@ namespace bak
     {
         static void Main(string[] args)
         {
+
+            Kontoinhaber konto = new Kontoinhaber("Max Mustermann", 1000);
+            Console.WriteLine("Kontoinhaber: " + konto.Name);   
+            Console.ReadKey();  
+
         }
     }
 }
